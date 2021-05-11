@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - SIMON GAME FREECODECAMP</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div>
+   <h1 class="title"><a href="https://en.wikipedia.org/wiki/Simon_(game)" target="blanc">SIMON-GAME</a></h1>
+  <div class="container">
+    <div class="game-circle">
+      <div class="box green" id="green" ></div>
+      <div class="box red" id="red"></div>
+      <div class="box yellow" id="yellow"></div>
+      <div class="box blue" id="blue"></div>
+           <div style="display: none">
+        <audio id="s1">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mp3"/>
+      </audio>
+        <audio id="s2">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mp3"/>
+      </audio>
+        <audio id="s3">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mp3"/>
+      </audio>
+        <audio id="s4">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mp3"/>
+      </audio>
+      </div>
+      <div id="panel">
+        <div id="set">
+          <div id="screen">
+            <div id="count">
+              <p></p>
+            </div>
+            <p style="margin-top:0px;text-align:center">COUNT</p>
+          </div>
+          <div id="start">
+            <div id="start-button"></div>
+            <p>START</p>
+          </div>
+          <div id="strict">
+            <div id="strict-button"></div>
+            <p>STRICT</p>
+          </div>
+        </div>
+        <div id="power">
+          <div id="off">
+            <p>OFF</p>
+          </div>
+          <div id="power-status">
+            <div id="btn"></div>
+          </div>
+          <div id="on">
+            <p>ON</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
