@@ -1,0 +1,183 @@
+body{
+  background: #d98c8c;
+}
+.container{
+  position: relative;
+  background: black;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+.box{
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.box:hover{
+  cursor: pointer;
+}
+.clicked{
+  background-color: white;
+}
+#red{
+  border-radius: 0% 100% 0% 0%;
+}
+.red{
+  background-color: red;
+}
+#green{
+  border-radius: 100% 0% 0% 0%;
+}
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
+#yellow{
+  border-radius: 0% 0% 0% 100%;
+}
+#blue{
+  border-radius: 0% 0% 100% 0%;
+}
+.blue{
+  background-color: blue;
+}
+#panel{
+  width: 195px;
+  height: 195px;
+  background: grey;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  border-radius: 50%;
+  border: 15px black solid;
+}
+
+#screen, #start, #strict{
+  float: left;
+  width: 55px;
+  height: 60px;
+  margin: 3px;
+  border: 4px;
+  position: relative;
+  left: 10px;
+  top: 70px;
+  font-size: 13px;
+}
+
+#count p{
+  margin-top: 10px;
+  text-align: center;
+}
+
+#count{
+  width: 85%;
+  height: 60%;
+  border-radius: 20%;
+  background: #d1d1e0;
+  border: 4px solid black;
+}
+#start-button{
+  background: #ee86ff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  border: 5px black solid;
+}
+
+#start-button:hover{
+  cursor: pointer;
+}
+#start-button:active {
+  transform: scale3d(0.9,0.9,0.9)
+}
+
+#start p{
+  text-align: center;
+  margin-top: 14px;
+}
+
+#strict-button{
+  background: #ecf2f5;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  border: 5px black solid;
+}
+
+#strict-button:hover{
+  cursor: pointer;
+}
+#strict-button:active {
+  transform: scale3d(0.9,0.9,0.9)
+}
+
+#strict p{
+  text-align: center;
+  margin-top: 14px;
+}
+
+#power{
+  font-size: 13px;
+}
+
+#off, #power-status, #on{
+  float: left;
+  position: relative;
+  top: 76px;
+  left: 23%;
+  margin: 2px;
+}
+
+#power-status{
+  background: black;
+  width: 50px;
+  height: 20px;
+  position: relative;
+  border-radius: 4px;
+}
+
+#btn:hover{
+  cursor: pointer;
+}
+
+#btn{
+  background: #00cc00;
+  width: 25px;
+  height: 16px;
+  border: 2px black solid;
+  position: relative;
+}
+
+.btn-on{
+  left: 25px;
+}
+
+#off p, #on p{
+  margin-top: 3px;
+}
+.title{
+  text-align: center;
+}
+
+a{
+ text-decoration: none; 
+}
+
+#me{
+  margin-top: 10%;
+  text-align: center;
+}
